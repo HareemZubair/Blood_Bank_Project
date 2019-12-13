@@ -1,0 +1,96 @@
+﻿.home-header {
+    background-color: dimgray;
+    padding-top: 40px;
+    height: 800px;
+    width: 100%;
+}
+
+#login-box {
+    position: relative;
+    margin: 2% auto;
+    height: 520px;
+    width: 700px;
+    background: darkred;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+
+.left-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    margin-top: -20px;
+}
+
+.right-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    margin-top: -20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 39px;
+    background: darkred;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover,
+    input[type="submit"]:focus {
+        background: gray;
+        color: black;
+        transition: 0.2s ease;
+    }
+
+.dropDown {
+    width: 100%;
+    height: 100%;
+}
+
+.btnRegister {
+    position: absolute;
+    top: 730px;
+    left: 430px;
+    text-align: center;
+}
+
+#labels {
+    text-align: center;
+}

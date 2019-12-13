@@ -1,0 +1,46 @@
+﻿.home-header {
+    background-color: dimgray;
+    padding-top: 70px;
+    margin-top: 60px;
+    height: 550px;
+    width: 100%;
+}
+
+#login-box {
+    position: relative;
+    margin: 2% auto;
+    height: 300px;
+    width: 550px;
+    background: darkred;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+
+.btnRegister {
+    position: absolute;
+    top: 190px;
+    left: 230px;
+    text-align: center;
+}
+
+.btn-light {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: dimgray;
+    color: darkred;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.2rem;
+}
+
+    .btn-light:hover, .btn-light:focus {
+        background: gray;
+        color: black;
+    }

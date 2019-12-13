@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="blood_bucket.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="icon" href="images/blood-drop.png" />
+    <title>Blood Bucket</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="style/StyleSheet1.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.menu-area li a {
+    text-decoration: none;
+}
+.menu-area li {
+    list-style-type: none;
+}
+.custom-padding {
+    padding-top: 25px;
+}
+nav {
+    position: relative;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 10px 0;
+    background: darkgray;
+    z-index: 1;
+    text-align: right;
+    padding-right: 2%;
+}
+.logo {
+    width: 15%;
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+}
+.menu-area li {
+    display: inline-block;
+}
+.menu-area a {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+    .menu-area a:hover {
+        background: darkgray;
+        color: #fff;
+    }
+        .menu-area a:hover:after {
+            transform: translateY(-50%) rotate(-35deg);
+        }
+nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid darkgray;
+    border-right: 10px solid darkgray;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+}
+nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid darkgray;
+    border-left: 10px solid darkgray;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+}
+.navbar {
+     position: fixed; /* Set the navbar to fixed position */
+     left:30px;
+}
+
+img { max-width: 100%; }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+    </style>
+
+<body>
+    <form id="form1" runat="server">        
+            <div id="mainContent" >
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="bodyfooter" style="padding: -10px; padding-top:60px; background-color:darkred;"></div>
+            <div id="footer" style="position: absolute; right: 0; bottom: 10; left: 0; height: 100px; width: 100%; background-color: darkred;" ></div>
+    </form>
+    <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

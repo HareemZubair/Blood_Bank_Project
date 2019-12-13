@@ -1,0 +1,101 @@
+﻿.dashboard {
+    position: fixed;
+    padding: 5px;
+    margin-top: -16px;
+    height: 680px;
+    width: 200px;
+    background: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#main-menu li > a:active {
+    background-color: darkred;
+}
+.arrow {
+    float: right;
+}
+.fa.arrow:before {
+    content: "\f104";
+}
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+.nav a {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: darkred;
+}
+
+.nav-second-level li {
+    border-bottom: none !important;
+}
+
+    .nav-second-level li a {
+        padding-left: 37px;
+    }
+
+    .nav-third-level li a {
+        padding-left: 55px;
+    }
+
+.sidebar-collapse, .sidebar-collapse .nav {
+    background: darkred;
+}
+
+    .sidebar-collapse .nav {
+        padding: 0;
+    }
+
+        .sidebar-collapse .nav > li > a {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: darkred;
+            text-shadow: none;
+        }
+
+    .sidebar-collapse > .nav > li > a {
+        padding: 15px 10px;
+    }
+
+    .sidebar-collapse > .nav > li {
+        border-bottom: darkred;
+    }
+
+    .sidebar-collapse .nav > li > a:hover,
+    .sidebar-collapse .nav > li > a:focus {
+        background: darkred;
+        outline: 0;
+    }
+
+.nav-second-level > li > a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 20px;
+    width: 15px;
+    height: 1px;
+    background: black;
+    top: 20px;
+}
+
+.nav-second-level > li > a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 20px;
+    width: 1px;
+    height: 100%;
+    background: darkred;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-second-level > li:last-child > a:after {
+    height: 50%;
+}
+
+.nav-third-level > li > a:after {
+    left: 40px;
+}

@@ -1,0 +1,76 @@
+﻿.grdContent {
+    overflow-x: auto;
+    width: 800px;
+    border: solid 2px black;
+    min-width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.GridDock {
+    overflow-x: auto;
+    overflow-y: hidden;
+    /*height:550px;*/
+    width: 880px;
+    padding: 0 0 15px 0;
+}
+.hdr {
+    background-color: darkred;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.rows {
+    background-color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    min-height: 25px;
+    text-align: center;
+    text-transform:capitalize;
+    border: none 0px transparent;
+}
+    .rows:hover {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkred;
+        text-align: center;
+    }
+.selectedrow {
+    background-color: darkred;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+.mydatagrid a /** FOR THE PAGING ICONS  **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mygrdContent a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/ {
+    background-color: darkred;
+    color: white;
+}
+.mygrdContent span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+.pager {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+.mygrdContent td {
+    padding: 5px;
+}
+.mygrdContent th {
+    padding: 5px;
+}

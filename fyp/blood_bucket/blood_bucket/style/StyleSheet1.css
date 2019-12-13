@@ -1,0 +1,78 @@
+﻿#container {
+    margin: 0 auto;
+    padding: 0;
+    height: 1800px;
+    width: 100%;
+    /*background-color:aqua;*/
+}
+
+#news {
+    margin: 0;
+    padding: 5px 0 0 0;
+    height: 25px;
+    width: 100%;
+    background-color: yellow;
+    color: red;
+}
+
+#mappath {
+    margin: 0;
+    padding: 5px 0 0 0;
+    height: 25px;
+    width: 100%;
+    background-color: orange;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
+#navigation {
+    margin: 0;
+    padding:0;
+    height:90px;
+    width:100%;
+    background-color:green;
+}
+
+ #aside{
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    width: 30%;
+    background-color: red;
+    float:right;
+}
+
+#slider {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 70%;
+    background-color: gray;
+}
+
+
+#main {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    width: 70%;
+    background-color: white;
+    overflow: scroll;
+    float: left;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    clear: both;
+}
+
+

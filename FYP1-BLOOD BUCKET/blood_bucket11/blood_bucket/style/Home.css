@@ -1,0 +1,142 @@
+﻿.home-header {
+    background-color: dimgray;
+    padding-top: 70px;
+    margin-top: 130px;
+    height: 500px;
+    width: 100%;
+}
+
+#explore-section {
+    color: #fff;
+    background: dimgray;
+    width: 100%;
+    height: 450px;
+    padding: 4px;
+    font-size: 30px;
+}
+
+.fa {
+    color: darkred;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#contact-section {
+    color: #fff;
+    background: dimgray;
+    width: 100%;
+    height: 500px;
+    padding: 4px;
+    font-size: 30px;
+}
+
+#explore-head-section {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: dimgrey;
+}
+
+#contact-head-section {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: dimgrey;
+}
+
+.lg-heading {
+    font-size: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+
+.sm-heading {
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.2rem 1rem;
+    background: darkgray;
+    color: black;
+    margin: 0;
+    font-weight: 400;
+}
+
+section h1 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#box1 {
+    font-size: 2rem;
+    border: 3px black solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    background-color: darkred;
+    transition: all 0.5s ease-out;
+}
+
+    #box1:hover {
+        padding: 0.5rem 1.5rem;
+        background-color: darkred;
+        color: white;
+    }
+
+#box2 {
+    font-size: 2rem;
+    border: 3px black solid;
+    padding: 1.5rem 2.5rem;
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+    margin-top: 10px;
+    background-color: darkred;
+    transition: all 0.5s ease-out;
+}
+
+    #box2:hover {
+        padding: 0.5rem 1.5rem;
+        background-color: darkred;
+        color: white;
+    }
+
+#box3 {
+    font-size: 2rem;
+    border: 3px black solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    margin-left: 15rem;
+    margin-top: 10px;
+    background-color: darkred;
+    transition: all 0.5s ease-out;
+}
+
+    #box3:hover {
+        padding: 0.5rem 1.5rem;
+        background-color: darkred;
+        color: white;
+    }
+
+#elementId {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    color: darkred;
+    padding: 0.4rem;
+}
+
+    #elementId:hover {
+        color: black;
+        transition: all 0.5s ease-out;
+    }
